@@ -1,0 +1,30 @@
+{
+  "name": "bestest",
+  "version": "0.0.1",
+  "description": "best",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "start": "npm run build && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lw7360/bestest.git"
+  },
+  "author": "Larry Wu <lw7360@gmail.com> (http://larrywu.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lw7360/bestest/issues"
+  },
+  "homepage": "https://github.com/lw7360/bestest#readme",
+  "dependencies": {
+    "babel-cli": "^6.6.0",
+    "babel-core": "^6.6.0",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.6.1",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "cheerio": "^0.20.0"
+  }
+}
